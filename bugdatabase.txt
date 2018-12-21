@@ -1,0 +1,1 @@
+1. Welcome text "Hello my name is Haydn" acts strangely when resizing screen
