@@ -1,0 +1,66 @@
+#navbar {
+  padding: 35px;
+  background-color: rgba(255, 255, 255, 0);/*Last arg is opacity*/
+  position: fixed; /* Make it stick/fixed */
+  top: 0; /* Stay on top */
+  width: 100%; /* Full width */
+  transition: top 1.5s; /* Transition effect when sliding down (and up) */
+
+}
+
+#nav-title {
+  display: block;
+  color: white;
+  text-decoration: none;
+}
+
+#navbar a {
+  display: block;
+  color: white;
+  text-decoration: none;
+}
+
+#navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+#intro-text{
+  background-color: #333;
+	padding: 20px;
+}
+
+#body{
+  background-color: #333;
+	padding: 20px;
+}
+
+#footer{
+  background-color: #333;
+	padding: 20px;
+  width: 100%; /* Full width */
+}
+.container {
+  position: relative;
+  text-align: center;
+  /*color: white;/*Modiefes welcome text color since it is child of container*/
+}
+@media only screen and (max-width: 40em) { /* small */
+  .welcome-text {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -300%);
+  }
+}
+@media only screen and (min-width: 40.063em) { /* medium */
+  .welcome-text {
+  position: absolute;
+  text-align: right;
+  /*top: 30%;*/
+  /*left: 50%;*/
+  transform: translate(50%, -800%);
+  }
+}
+@media only screen and (min-width: 64.063em) { /* large */
+
+}
